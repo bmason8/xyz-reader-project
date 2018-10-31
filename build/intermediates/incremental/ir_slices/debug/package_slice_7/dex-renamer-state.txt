@@ -1,0 +1,4 @@
+#Sat Oct 20 13:07:51 PDT 2018
+base.0=/Users/benmason/UdacityAndroidResources/xyz-reader-starter-code-master/XYZReader/build/intermediates/transforms/dexMerger/debug/7
+path.0=classes.dex
+renamed.0=classes.dex

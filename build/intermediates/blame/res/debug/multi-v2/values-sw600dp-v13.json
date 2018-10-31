@@ -1,0 +1,89 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/benmason/UdacityAndroidResources/xyz-reader-starter-code-master/XYZReader/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/benmason/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/631b41c4e1533e2ab4aaab7b24981baf/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                },
+                {
+                    "source": "/Users/benmason/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/983afecfba1b5ff9d90159aebf5a9d95/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,185,256,328,386,444,550,614,677",
+                        "endLines": "2,3,4,5,6,7,8,9,10,14",
+                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
+                        "endOffsets": "110,180,251,323,381,439,545,609,672,854"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,17,36,38",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "611,671,741,812,884,942,1000,1106,2176,2284",
+                        "endLines": "10,11,12,13,14,15,16,17,36,41",
+                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
+                        "endOffsets": "666,736,807,879,937,995,1101,1165,2234,2461"
+                    }
+                },
+                {
+                    "source": "/Users/benmason/UdacityAndroidResources/xyz-reader-starter-code-master/XYZReader/src/main/res/values-sw600dp/macro_layout.xml",
+                    "from": {
+                        "startLines": "7,3,4,6,5,2",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "325,88,143,259,200,36",
+                        "endColumns": "56,54,56,65,58,51",
+                        "endOffsets": "377,138,195,320,254,83"
+                    },
+                    "to": {
+                        "startLines": "18,21,22,23,24,25",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "1170,1336,1391,1448,1514,1573",
+                        "endColumns": "56,54,56,65,58,51",
+                        "endOffsets": "1222,1386,1443,1509,1568,1620"
+                    }
+                },
+                {
+                    "source": "/Users/benmason/UdacityAndroidResources/xyz-reader-starter-code-master/XYZReader/src/main/res/values-sw600dp/dimens.xml",
+                    "from": {
+                        "startLines": "16,3,2,6,8,7,11,12,13,15,14,4",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "657,90,36,239,337,283,395,436,477,589,524,143",
+                        "endColumns": "55,52,53,43,41,53,40,40,46,67,64,94",
+                        "endOffsets": "708,138,85,278,374,332,431,472,519,652,584,233"
+                    },
+                    "to": {
+                        "startLines": "19,20,26,27,28,29,30,31,32,33,34,35",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1227,1283,1625,1679,1723,1765,1819,1860,1901,1948,2016,2081",
+                        "endColumns": "55,52,53,43,41,53,40,40,46,67,64,94",
+                        "endOffsets": "1278,1331,1674,1718,1760,1814,1855,1896,1943,2011,2076,2171"
+                    }
+                },
+                {
+                    "source": "/Users/benmason/UdacityAndroidResources/xyz-reader-starter-code-master/XYZReader/src/main/res/values-sw600dp/intergers.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "44",
+                        "endOffsets": "95"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "2239",
+                        "endColumns": "44",
+                        "endOffsets": "2279"
+                    }
+                }
+            ]
+        }
+    ]
+}

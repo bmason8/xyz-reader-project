@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--https://stackoverflow.com/questions/24826459/animated-loading-image-in-picasso-->
+<animated-rotate xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:drawable="@drawable/progress_image"
+                 android:pivotX="50%"
+                 android:pivotY="50%"/>

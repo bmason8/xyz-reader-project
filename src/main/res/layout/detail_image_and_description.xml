@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto"
+       xmlns:tools="http://schemas.android.com/tools"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       tools:showIn="@layout/fragment_article_detail">
+
+    <FrameLayout android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:fitsSystemWindows="true"
+            app:layout_collapseMode="parallax"
+            android:contentDescription="@string/detail_image_content_description"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/photo_background_protection" />
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_collapseMode="parallax">
+
+            <TextView
+                android:id="@+id/article_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="@dimen/keyline_1"
+                android:fontFamily="@font/roboto_condensed_regular"
+                android:textColor="@android:color/white" android:textSize="@dimen/detail_title_text_size"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/article_byline" app:layout_constraintStart_toStartOf="parent"
+                tools:text="Article Title"/>
+
+            <TextView
+                android:id="@+id/article_byline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:layout_marginStart="@dimen/keyline_1"
+                android:textColor="@android:color/white" app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" tools:text="Article byline"/>
+        </android.support.constraint.ConstraintLayout>
+    </FrameLayout>
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="start|bottom"-->
+    <!--android:orientation="vertical"-->
+    <!--app:layout_collapseMode="parallax">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/article_title"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginStart="@dimen/keyline_1"-->
+    <!--android:layout_marginEnd="@dimen/keyline_1"-->
+    <!--android:fontFamily="@font/roboto_condensed_regular"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textSize="@dimen/detail_title_text_size"-->
+    <!--android:textStyle="bold" tools:text="Article Title"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/article_byline"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginBottom="@dimen/keyline_1"-->
+    <!--android:layout_marginStart="@dimen/keyline_1"-->
+    <!--android:layout_marginEnd="@dimen/keyline_1"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--tools:text="Article byline"/>-->
+    <!--</LinearLayout>-->
+
+</merge>
